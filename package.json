@@ -1,0 +1,67 @@
+{
+  "name": "squid-game",
+  "version": "1.2.3",
+  "description": "A Web Game inspired by Squid Game built with React.",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "/squid-game",
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@reduxjs/toolkit": "^1.7.1",
+    "i18next": "^21.6.11",
+    "i18next-browser-languagedetector": "^6.1.3",
+    "i18next-http-backend": "^1.3.2",
+    "prop-types": "^15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-i18next": "^11.15.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "6",
+    "react-scripts": "5.0.0",
+    "react-spring-bottom-sheet": "^3.4.0"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/runtime": "7.13.8",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "autoprefixer": "^10.4.2",
+    "eslint-plugin-jest": "^26.1.0",
+    "eslint-plugin-react": "^7.28.0",
+    "jest-puppeteer": "^6.1.0",
+    "postcss": "^8.4.6",
+    "prettier": "2.5.1",
+    "puppeteer": "^13.3.2",
+    "react-error-overlay": "^6.0.10",
+    "tailwindcss": "^3.0.22",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --config jest.config.js",
+    "test:e2e": "jest --config jest.e2e.config.js",
+    "eject": "react-scripts eject",
+    "format": "prettier --check '**/*.{json, js, jsx, ts, tsx, md}'",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "commitlint": "commitlint --from 95913d239cc0ec0649694f2c3e268e2585eba7f9"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": {
+    "name": "Thibault Friedrich",
+    "email": "thibault.friedrich@gmail.com"
+  },
+  "license": "MIT"
+}
